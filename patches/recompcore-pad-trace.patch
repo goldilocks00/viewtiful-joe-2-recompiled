@@ -1,0 +1,39 @@
+diff --git a/Source/Core/Core/HW/GCPad.cpp b/Source/Core/Core/HW/GCPad.cpp
+index 188882c..c24df66 100644
+--- a/Source/Core/Core/HW/GCPad.cpp
++++ b/Source/Core/Core/HW/GCPad.cpp
+@@ -3,6 +3,9 @@
+ 
+ #include "Core/HW/GCPad.h"
+ 
++#include <cstdio>
++#include <cstdlib>
++
+ #include "Common/Common.h"
+ #include "Core/HW/GCPadEmu.h"
+ #include "InputCommon/ControllerEmu/ControlGroup/ControlGroup.h"
+@@ -55,7 +58,23 @@ bool IsInitialized()
+ 
+ GCPadStatus GetStatus(int pad_num)
+ {
+-  return static_cast<GCPad*>(s_config.GetController(pad_num))->GetInput();
++  const auto status = static_cast<GCPad*>(s_config.GetController(pad_num))->GetInput();
++  // Opt-in, bounded diagnostic of host pad polling, not guest PADRead consumption.
++  static const bool trace = [] {
++    const char* value = std::getenv("VJ2_TRACE_PAD");
++    return value && value[0] == '1' && value[1] == '\0';
++  }();
++  static unsigned samples = 0;
++  if (trace && pad_num == 0 && samples < 15360)
++  {
++    if (samples % 60 == 0)
++      std::fprintf(stderr, "[vj2-pad] poll=%u buttons=%04x stick=%u,%u triggers=%u,%u connected=%d\n",
++                   samples, unsigned(status.button), unsigned(status.stickX),
++                   unsigned(status.stickY), unsigned(status.triggerLeft),
++                   unsigned(status.triggerRight), int(status.isConnected));
++    ++samples;
++  }
++  return status;
+ }
+ 
+ ControllerEmu::ControlGroup* GetGroup(int pad_num, PadGroup group)

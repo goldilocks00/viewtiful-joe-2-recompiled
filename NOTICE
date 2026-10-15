@@ -1,0 +1,17 @@
+Viewtiful Joe 2 Recompiled — experimental community project
+
+The original project scripts and documentation are distributed under GNU GPL
+version 3; see LICENSE. Patches retain the licensing of the upstream files
+that they modify.
+
+Dependencies are fetched separately at revisions in config/sources.lock.json:
+- ModernGekko-Template: https://github.com/ExpansionPak/ModernGekko-Template
+- ModernGekko: see the template's pinned lib/ModernGekko submodule and LICENSE.
+- DolRecomp: see the template's pinned lib/DolRecomp submodule and LICENSE.
+- RecompCore/Dolphin: see ModernGekko's pinned vendor/dolphin submodule,
+  COPYING and per-file SPDX notices. ShaderCache.cpp carries GPL-2.0-or-later.
+
+The GPL text here does not relicense third-party dependencies or game content.
+No game image, game resources or generated game module is included in this
+repository. Viewtiful Joe and associated game content belong to their respective
+rights holders. This project is not affiliated with Capcom or Nintendo.

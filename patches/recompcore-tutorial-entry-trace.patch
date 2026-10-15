@@ -1,0 +1,22 @@
+--- a/Source/Core/Core/PowerPC/StaticRecomp/StaticRecompCore_Run.cpp
++++ b/Source/Core/Core/PowerPC/StaticRecomp/StaticRecompCore_Run.cpp
+@@ -141,6 +141,19 @@
+                          m_guest.lr, m_guest.ctr, m_guest.cr,
+                          static_cast<unsigned long long>(m_guest.timebase), ppc.downcount);
+             std::fflush(dispatch_trace.get());
++          }
++          // Bounded entry trace; internal branches within generated chunks are not observed.
++          static const bool vj2_trace_entry = [] {
++            const char* value = std::getenv("VJ2_TRACE_TUTORIAL_ENTRY");
++            return value && value[0] == '1' && value[1] == '\0';
++          }();
++          static unsigned vj2_entry_count = 0;
++          if (vj2_trace_entry && vj2_entry_count < 32 &&
++              (m_guest.pc == 0x80138a60 || m_guest.pc == 0x80139eac))
++          {
++            ++vj2_entry_count;
++            std::fprintf(stderr, "[vj2-entry] pc=%08x r3=%08x lr=%08x\n",
++                         m_guest.pc, m_guest.gpr[3], m_guest.lr);
+           }
+           const bool do_ls = lockstep_enabled && m_lockstep_verifier->ShouldCheck(m_guest.pc);
+           if (do_ls)

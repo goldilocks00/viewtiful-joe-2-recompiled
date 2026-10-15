@@ -1,0 +1,46 @@
+diff --git a/tools/moderngekko_port.cpp b/tools/moderngekko_port.cpp
+index af1c2a5..03de382 100644
+--- a/tools/moderngekko_port.cpp
++++ b/tools/moderngekko_port.cpp
+@@ -45,6 +45,23 @@ constexpr std::string_view DEFAULT_BACKEND = "llvm";
+ constexpr std::string_view DEFAULT_BACKEND = "c";
+ #endif
+ 
++unsigned BuildJobs()
++{
++  if (const char* text = std::getenv("CMAKE_BUILD_PARALLEL_LEVEL"))
++  {
++    const std::string_view value(text);
++    unsigned jobs = 0;
++    const auto result = std::from_chars(value.data(), value.data() + value.size(), jobs);
++    if (result.ec != std::errc{} || result.ptr != value.data() + value.size() || jobs == 0)
++    {
++      std::cerr << "CMAKE_BUILD_PARALLEL_LEVEL must be a positive integer\n";
++      std::exit(2);
++    }
++    return jobs;
++  }
++  return std::max(1u, std::thread::hardware_concurrency());
++}
++
+ fs::path DefaultOutput()
+ {
+   if (const char* xdg = std::getenv("XDG_CACHE_HOME"))
+@@ -755,7 +772,7 @@ std::optional<fs::path> Build(const char* argv0, const fs::path& root,
+     }
+   }
+   std::string generate = Quote(dolrecomp) + " -j" +
+-                         std::to_string(std::max(1u, std::thread::hardware_concurrency())) +
++                         std::to_string(BuildJobs()) +
+                          " --backend=" + options.backend + " ";
+   if (game.platform == moderngekko::GamePlatform::GameCube)
+     generate += "--cpu gekko --gamecube " + Quote(recomp_dol) + " " + Quote(generated_parent);
+@@ -794,7 +811,7 @@ std::optional<fs::path> Build(const char* argv0, const fs::path& root,
+   else
+     std::ofstream{normalized_smc};
+ 
+-  const unsigned compile_jobs = std::max(1u, std::thread::hardware_concurrency());
++  const unsigned compile_jobs = BuildJobs();
+   std::string configure = "cmake -E env CMAKE_NINJA_FORCE_RESPONSE_FILE=1 cmake -S " +
+       Quote(source_root / "vendor/dolphin/module-template") +
+       " -B " + Quote(module_build) + " -G Ninja -DCMAKE_BUILD_TYPE=Release" +

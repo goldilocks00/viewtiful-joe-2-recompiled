@@ -1,0 +1,1251 @@
+{
+  "file": "Viewtiful Joe 2 (Europe) (En,Fr,De,Es,It).ciso",
+  "format": "CISO",
+  "size": 1455456832,
+  "trailing_bytes": 576,
+  "hashes": {
+    "md5": "8bc6fe7e9a83994c16a75e28a62a123f",
+    "sha1": "da4829fae767b9f2f65d60ca65448d31b7d28a8a",
+    "sha256": "d56dde6f10848a4b693ffa0a2703a5f0f17a15e26f18a2ae2c1c7bad31f40e55"
+  },
+  "title": "Viewtiful Joe 2",
+  "game_id": "G2VP08",
+  "disc_number": 0,
+  "revision": 0,
+  "dol_offset": 131072,
+  "entry_point": 2147496192,
+  "bss_address": 2150729792,
+  "bss_size": 1287845,
+  "sections": [
+    {
+      "name": "text0",
+      "offset": 256,
+      "address": 2147496192,
+      "size": 928
+    },
+    {
+      "name": "text1",
+      "offset": 1184,
+      "address": 2147497120,
+      "size": 2813152
+    },
+    {
+      "name": "data0",
+      "offset": 2814336,
+      "address": 2150310272,
+      "size": 140832
+    },
+    {
+      "name": "data1",
+      "offset": 2955168,
+      "address": 2150451104,
+      "size": 278688
+    },
+    {
+      "name": "data2",
+      "offset": 3233856,
+      "address": 2152013504,
+      "size": 2656
+    },
+    {
+      "name": "data3",
+      "offset": 3236512,
+      "address": 2152017664,
+      "size": 3840
+    }
+  ],
+  "fst_offset": 3371520,
+  "fst_size": 5606,
+  "entries": [
+    {
+      "path": "bgm/",
+      "directory": true
+    },
+    {
+      "path": "bgm/st00.afs",
+      "offset": 12310132,
+      "size": 13019136
+    },
+    {
+      "path": "bgm/st00.bkr",
+      "offset": 25329268,
+      "size": 544
+    },
+    {
+      "path": "bgm/st01.afs",
+      "offset": 25329812,
+      "size": 29618176
+    },
+    {
+      "path": "bgm/st01.bkr",
+      "offset": 54947988,
+      "size": 832
+    },
+    {
+      "path": "bgm/st02.afs",
+      "offset": 54948820,
+      "size": 22829056
+    },
+    {
+      "path": "bgm/st02.bkr",
+      "offset": 77777876,
+      "size": 832
+    },
+    {
+      "path": "bgm/st03.afs",
+      "offset": 77778708,
+      "size": 25454592
+    },
+    {
+      "path": "bgm/st03.bkr",
+      "offset": 103233300,
+      "size": 832
+    },
+    {
+      "path": "bgm/st04.afs",
+      "offset": 103234132,
+      "size": 24578048
+    },
+    {
+      "path": "bgm/st04.bkr",
+      "offset": 127812180,
+      "size": 832
+    },
+    {
+      "path": "bgm/st05.afs",
+      "offset": 127813012,
+      "size": 22593536
+    },
+    {
+      "path": "bgm/st05.bkr",
+      "offset": 150406548,
+      "size": 832
+    },
+    {
+      "path": "bgm/st06.afs",
+      "offset": 150407380,
+      "size": 40275968
+    },
+    {
+      "path": "bgm/st06.bkr",
+      "offset": 190683348,
+      "size": 848
+    },
+    {
+      "path": "bgm/st07.afs",
+      "offset": 190684196,
+      "size": 32751616
+    },
+    {
+      "path": "bgm/st07.bkr",
+      "offset": 223435812,
+      "size": 832
+    },
+    {
+      "path": "bgm/st08.afs",
+      "offset": 223436644,
+      "size": 2334720
+    },
+    {
+      "path": "bgm/st08.bkr",
+      "offset": 225771364,
+      "size": 48
+    },
+    {
+      "path": "bgm/st0a.afs",
+      "offset": 225771412,
+      "size": 5191680
+    },
+    {
+      "path": "bgm/st0a.bkr",
+      "offset": 230963092,
+      "size": 160
+    },
+    {
+      "path": "etc/",
+      "directory": true
+    },
+    {
+      "path": "etc/card.texgc",
+      "offset": 230963252,
+      "size": 8192
+    },
+    {
+      "path": "etc/co01.dengc",
+      "offset": 863329556,
+      "size": 5595136
+    },
+    {
+      "path": "etc/co01.dfrgc",
+      "offset": 230971444,
+      "size": 5605376
+    },
+    {
+      "path": "etc/co01.dgegc",
+      "offset": 236576820,
+      "size": 5605376
+    },
+    {
+      "path": "etc/co01.ditgc",
+      "offset": 242182196,
+      "size": 5601280
+    },
+    {
+      "path": "etc/co01.dspgc",
+      "offset": 247783476,
+      "size": 5603328
+    },
+    {
+      "path": "etc/core.dengc",
+      "offset": 868924692,
+      "size": 5519360
+    },
+    {
+      "path": "etc/core.dfrgc",
+      "offset": 253386804,
+      "size": 5529600
+    },
+    {
+      "path": "etc/core.dgegc",
+      "offset": 258916404,
+      "size": 5527552
+    },
+    {
+      "path": "etc/core.ditgc",
+      "offset": 264443956,
+      "size": 5523456
+    },
+    {
+      "path": "etc/core.dspgc",
+      "offset": 269967412,
+      "size": 5525504
+    },
+    {
+      "path": "etc/load.dengc",
+      "offset": 874444052,
+      "size": 1302528
+    },
+    {
+      "path": "etc/load.dfrgc",
+      "offset": 275492916,
+      "size": 1372160
+    },
+    {
+      "path": "etc/load.dgegc",
+      "offset": 276865076,
+      "size": 1390592
+    },
+    {
+      "path": "etc/load.ditgc",
+      "offset": 278255668,
+      "size": 1327104
+    },
+    {
+      "path": "etc/load.dspgc",
+      "offset": 279582772,
+      "size": 1394688
+    },
+    {
+      "path": "etc/option.dengc",
+      "offset": 875746580,
+      "size": 604160
+    },
+    {
+      "path": "etc/option.dfrgc",
+      "offset": 280977460,
+      "size": 616448
+    },
+    {
+      "path": "etc/option.dgegc",
+      "offset": 281593908,
+      "size": 614400
+    },
+    {
+      "path": "etc/option.ditgc",
+      "offset": 282208308,
+      "size": 614400
+    },
+    {
+      "path": "etc/option.dspgc",
+      "offset": 282822708,
+      "size": 614400
+    },
+    {
+      "path": "etc/pl00.dengc",
+      "offset": 876350740,
+      "size": 2256896
+    },
+    {
+      "path": "etc/pl01.dengc",
+      "offset": 878607636,
+      "size": 2160640
+    },
+    {
+      "path": "etc/pl04.dengc",
+      "offset": 880768276,
+      "size": 1646592
+    },
+    {
+      "path": "etc/pl05.dengc",
+      "offset": 882414868,
+      "size": 1527808
+    },
+    {
+      "path": "etc/title.dengc",
+      "offset": 883942676,
+      "size": 2041856
+    },
+    {
+      "path": "evpal/",
+      "directory": true
+    },
+    {
+      "path": "evpal/ev04.evtgc",
+      "offset": 283437108,
+      "size": 2655616
+    },
+    {
+      "path": "evpal/ev06.evtgc",
+      "offset": 286092724,
+      "size": 740448
+    },
+    {
+      "path": "evpal/ev08.evtgc",
+      "offset": 286833172,
+      "size": 1023264
+    },
+    {
+      "path": "evpal/ev12.evtgc",
+      "offset": 287856436,
+      "size": 1355232
+    },
+    {
+      "path": "evpal/ev14.evtgc",
+      "offset": 289211668,
+      "size": 1754048
+    },
+    {
+      "path": "evpal/ev24.evtgc",
+      "offset": 290965716,
+      "size": 1510112
+    },
+    {
+      "path": "movie/",
+      "directory": true
+    },
+    {
+      "path": "movie/clover.h4m",
+      "offset": 1182309652,
+      "size": 617912
+    },
+    {
+      "path": "movie/endingu.h4m",
+      "offset": 1182927564,
+      "size": 96424302
+    },
+    {
+      "path": "movie/opu.h4m",
+      "offset": 1279351868,
+      "size": 126410834
+    },
+    {
+      "path": "movie/op_demou.h4m",
+      "offset": 1405762704,
+      "size": 21369392
+    },
+    {
+      "path": "movie/pl_demo.h4m",
+      "offset": 1427132096,
+      "size": 32846127
+    },
+    {
+      "path": "opening.bnr",
+      "offset": 292475828,
+      "size": 6496
+    },
+    {
+      "path": "st00/",
+      "directory": true
+    },
+    {
+      "path": "st00/st000.dengc",
+      "offset": 885984532,
+      "size": 202752
+    },
+    {
+      "path": "st00/st001.dengc",
+      "offset": 886187284,
+      "size": 2471936
+    },
+    {
+      "path": "st00/st002.dengc",
+      "offset": 888659220,
+      "size": 6658048
+    },
+    {
+      "path": "st00/st003.dengc",
+      "offset": 895317268,
+      "size": 161792
+    },
+    {
+      "path": "st00/st004.dengc",
+      "offset": 895479060,
+      "size": 604160
+    },
+    {
+      "path": "st00/st004.dfrgc",
+      "offset": 292482324,
+      "size": 593920
+    },
+    {
+      "path": "st00/st004.dgegc",
+      "offset": 293076244,
+      "size": 626688
+    },
+    {
+      "path": "st00/st004.ditgc",
+      "offset": 293702932,
+      "size": 618496
+    },
+    {
+      "path": "st00/st004.dspgc",
+      "offset": 294321428,
+      "size": 616448
+    },
+    {
+      "path": "st01/",
+      "directory": true
+    },
+    {
+      "path": "st01/st010.dengc",
+      "offset": 896083220,
+      "size": 7634944
+    },
+    {
+      "path": "st01/st010.dfrgc",
+      "offset": 294937876,
+      "size": 7745536
+    },
+    {
+      "path": "st01/st010.dgegc",
+      "offset": 302683412,
+      "size": 7757824
+    },
+    {
+      "path": "st01/st010.ditgc",
+      "offset": 310441236,
+      "size": 7725056
+    },
+    {
+      "path": "st01/st010.dspgc",
+      "offset": 318166292,
+      "size": 7751680
+    },
+    {
+      "path": "st01/st011.dengc",
+      "offset": 903718164,
+      "size": 7839744
+    },
+    {
+      "path": "st01/st011.dfrgc",
+      "offset": 325917972,
+      "size": 7880704
+    },
+    {
+      "path": "st01/st011.dgegc",
+      "offset": 333798676,
+      "size": 7870464
+    },
+    {
+      "path": "st01/st011.ditgc",
+      "offset": 341669140,
+      "size": 7874560
+    },
+    {
+      "path": "st01/st011.dspgc",
+      "offset": 349543700,
+      "size": 7874560
+    },
+    {
+      "path": "st01/st012.dengc",
+      "offset": 911557908,
+      "size": 7430144
+    },
+    {
+      "path": "st01/st013.dengc",
+      "offset": 918988052,
+      "size": 6014976
+    },
+    {
+      "path": "st02/",
+      "directory": true
+    },
+    {
+      "path": "st02/st020.dengc",
+      "offset": 925003028,
+      "size": 8359936
+    },
+    {
+      "path": "st02/st020.dfrgc",
+      "offset": 357418260,
+      "size": 8407040
+    },
+    {
+      "path": "st02/st020.dgegc",
+      "offset": 365825300,
+      "size": 8409088
+    },
+    {
+      "path": "st02/st020.ditgc",
+      "offset": 374234388,
+      "size": 8398848
+    },
+    {
+      "path": "st02/st020.dspgc",
+      "offset": 382633236,
+      "size": 8394752
+    },
+    {
+      "path": "st02/st021.dengc",
+      "offset": 933362964,
+      "size": 2416640
+    },
+    {
+      "path": "st02/st022.dengc",
+      "offset": 935779604,
+      "size": 7673856
+    },
+    {
+      "path": "st02/st023.dengc",
+      "offset": 943453460,
+      "size": 8091648
+    },
+    {
+      "path": "st03/",
+      "directory": true
+    },
+    {
+      "path": "st03/st031.dengc",
+      "offset": 951545108,
+      "size": 8679424
+    },
+    {
+      "path": "st03/st031.dfrgc",
+      "offset": 391027988,
+      "size": 8726528
+    },
+    {
+      "path": "st03/st031.dgegc",
+      "offset": 399754516,
+      "size": 8701952
+    },
+    {
+      "path": "st03/st031.ditgc",
+      "offset": 408456468,
+      "size": 8726528
+    },
+    {
+      "path": "st03/st031.dspgc",
+      "offset": 417182996,
+      "size": 8722432
+    },
+    {
+      "path": "st03/st032.dengc",
+      "offset": 960224532,
+      "size": 8869888
+    },
+    {
+      "path": "st03/st033.dengc",
+      "offset": 969094420,
+      "size": 7137280
+    },
+    {
+      "path": "st04/",
+      "directory": true
+    },
+    {
+      "path": "st04/st040.dengc",
+      "offset": 976231700,
+      "size": 8222720
+    },
+    {
+      "path": "st04/st040.dfrgc",
+      "offset": 425905428,
+      "size": 8228864
+    },
+    {
+      "path": "st04/st040.dgegc",
+      "offset": 434134292,
+      "size": 8230912
+    },
+    {
+      "path": "st04/st040.ditgc",
+      "offset": 442365204,
+      "size": 8230912
+    },
+    {
+      "path": "st04/st040.dspgc",
+      "offset": 450596116,
+      "size": 8228864
+    },
+    {
+      "path": "st04/st041.dengc",
+      "offset": 984454420,
+      "size": 5455872
+    },
+    {
+      "path": "st04/st042.dengc",
+      "offset": 989910292,
+      "size": 7526400
+    },
+    {
+      "path": "st05/",
+      "directory": true
+    },
+    {
+      "path": "st05/st050.dengc",
+      "offset": 997436692,
+      "size": 9046016
+    },
+    {
+      "path": "st05/st050.dfrgc",
+      "offset": 458824980,
+      "size": 9050112
+    },
+    {
+      "path": "st05/st050.dgegc",
+      "offset": 467875092,
+      "size": 9048064
+    },
+    {
+      "path": "st05/st050.ditgc",
+      "offset": 476923156,
+      "size": 9048064
+    },
+    {
+      "path": "st05/st050.dspgc",
+      "offset": 485971220,
+      "size": 9060352
+    },
+    {
+      "path": "st05/st051.dengc",
+      "offset": 1006482708,
+      "size": 7700480
+    },
+    {
+      "path": "st05/st051.dfrgc",
+      "offset": 495031572,
+      "size": 7704576
+    },
+    {
+      "path": "st05/st051.dgegc",
+      "offset": 502736148,
+      "size": 7704576
+    },
+    {
+      "path": "st05/st051.ditgc",
+      "offset": 510440724,
+      "size": 7704576
+    },
+    {
+      "path": "st05/st051.dspgc",
+      "offset": 518145300,
+      "size": 7704576
+    },
+    {
+      "path": "st05/st052.dengc",
+      "offset": 1014183188,
+      "size": 7051264
+    },
+    {
+      "path": "st05/st053.dengc",
+      "offset": 1021234452,
+      "size": 6199296
+    },
+    {
+      "path": "st06/",
+      "directory": true
+    },
+    {
+      "path": "st06/st060.dengc",
+      "offset": 1027433748,
+      "size": 5251072
+    },
+    {
+      "path": "st06/st060.dfrgc",
+      "offset": 525849876,
+      "size": 5244928
+    },
+    {
+      "path": "st06/st060.dgegc",
+      "offset": 531094804,
+      "size": 5246976
+    },
+    {
+      "path": "st06/st060.ditgc",
+      "offset": 536341780,
+      "size": 5240832
+    },
+    {
+      "path": "st06/st060.dspgc",
+      "offset": 541582612,
+      "size": 5238784
+    },
+    {
+      "path": "st06/st061.dengc",
+      "offset": 1032684820,
+      "size": 6006784
+    },
+    {
+      "path": "st06/st062.dengc",
+      "offset": 1038691604,
+      "size": 5378048
+    },
+    {
+      "path": "st06/st063.dengc",
+      "offset": 1044069652,
+      "size": 6660096
+    },
+    {
+      "path": "st06/st064.dengc",
+      "offset": 1050729748,
+      "size": 4771840
+    },
+    {
+      "path": "st06/st065.dengc",
+      "offset": 1055501588,
+      "size": 3432448
+    },
+    {
+      "path": "st06/st066.dengc",
+      "offset": 1058934036,
+      "size": 4870144
+    },
+    {
+      "path": "st07/",
+      "directory": true
+    },
+    {
+      "path": "st07/st070.dengc",
+      "offset": 1063804180,
+      "size": 3176448
+    },
+    {
+      "path": "st07/st070.dfrgc",
+      "offset": 546821396,
+      "size": 3184640
+    },
+    {
+      "path": "st07/st070.dgegc",
+      "offset": 550006036,
+      "size": 3178496
+    },
+    {
+      "path": "st07/st070.ditgc",
+      "offset": 553184532,
+      "size": 3182592
+    },
+    {
+      "path": "st07/st070.dspgc",
+      "offset": 556367124,
+      "size": 3176448
+    },
+    {
+      "path": "st07/st071.dengc",
+      "offset": 1066980628,
+      "size": 7684096
+    },
+    {
+      "path": "st07/st072.dengc",
+      "offset": 1074664724,
+      "size": 7114752
+    },
+    {
+      "path": "st07/st073.dengc",
+      "offset": 1081779476,
+      "size": 7946240
+    },
+    {
+      "path": "st07/st074.dengc",
+      "offset": 1089725716,
+      "size": 5965824
+    },
+    {
+      "path": "st07/st075.dengc",
+      "offset": 1095691540,
+      "size": 2924544
+    },
+    {
+      "path": "st07/st076.dengc",
+      "offset": 1098616084,
+      "size": 5627904
+    },
+    {
+      "path": "st07/st077.dengc",
+      "offset": 1104243988,
+      "size": 3346432
+    },
+    {
+      "path": "st08/",
+      "directory": true
+    },
+    {
+      "path": "st08/st080.dengc",
+      "offset": 1107590420,
+      "size": 1886208
+    },
+    {
+      "path": "st08/st080.dfrgc",
+      "offset": 559543572,
+      "size": 1886208
+    },
+    {
+      "path": "st08/st080.dgegc",
+      "offset": 561429780,
+      "size": 1884160
+    },
+    {
+      "path": "st08/st080.ditgc",
+      "offset": 563313940,
+      "size": 1884160
+    },
+    {
+      "path": "st08/st080.dspgc",
+      "offset": 565198100,
+      "size": 1884160
+    },
+    {
+      "path": "st08/st081.dengc",
+      "offset": 1109476628,
+      "size": 1062912
+    },
+    {
+      "path": "st08/st081.dfrgc",
+      "offset": 567082260,
+      "size": 1419264
+    },
+    {
+      "path": "st08/st081.dgegc",
+      "offset": 568501524,
+      "size": 1386496
+    },
+    {
+      "path": "st08/st081.ditgc",
+      "offset": 569888020,
+      "size": 1345536
+    },
+    {
+      "path": "st08/st081.dspgc",
+      "offset": 571233556,
+      "size": 1415168
+    },
+    {
+      "path": "st08/st082.dengc",
+      "offset": 1110539540,
+      "size": 1390592
+    },
+    {
+      "path": "st08/st082.dfrgc",
+      "offset": 572648724,
+      "size": 1462272
+    },
+    {
+      "path": "st08/st082.dgegc",
+      "offset": 574110996,
+      "size": 1478656
+    },
+    {
+      "path": "st08/st082.ditgc",
+      "offset": 575589652,
+      "size": 1417216
+    },
+    {
+      "path": "st08/st082.dspgc",
+      "offset": 577006868,
+      "size": 1482752
+    },
+    {
+      "path": "st08/st083.dengc",
+      "offset": 1111930132,
+      "size": 811008
+    },
+    {
+      "path": "st08/st083.dfrgc",
+      "offset": 578489620,
+      "size": 808960
+    },
+    {
+      "path": "st08/st083.dgegc",
+      "offset": 579298580,
+      "size": 811008
+    },
+    {
+      "path": "st08/st083.ditgc",
+      "offset": 580109588,
+      "size": 811008
+    },
+    {
+      "path": "st08/st083.dspgc",
+      "offset": 580920596,
+      "size": 808960
+    },
+    {
+      "path": "st08/st084.dengc",
+      "offset": 1112741140,
+      "size": 1124352
+    },
+    {
+      "path": "st08/st084.dfrgc",
+      "offset": 581729556,
+      "size": 1507328
+    },
+    {
+      "path": "st08/st084.dgegc",
+      "offset": 583236884,
+      "size": 1439744
+    },
+    {
+      "path": "st08/st084.ditgc",
+      "offset": 584676628,
+      "size": 1439744
+    },
+    {
+      "path": "st08/st084.dspgc",
+      "offset": 586116372,
+      "size": 1429504
+    },
+    {
+      "path": "st08/st085.dengc",
+      "offset": 1113865492,
+      "size": 1345536
+    },
+    {
+      "path": "st08/st085.dfrgc",
+      "offset": 587545876,
+      "size": 1787904
+    },
+    {
+      "path": "st08/st085.dgegc",
+      "offset": 589333780,
+      "size": 1757184
+    },
+    {
+      "path": "st08/st085.ditgc",
+      "offset": 591090964,
+      "size": 1751040
+    },
+    {
+      "path": "st08/st085.dspgc",
+      "offset": 592842004,
+      "size": 1773568
+    },
+    {
+      "path": "st0a/",
+      "directory": true
+    },
+    {
+      "path": "st0a/st0a0.dengc",
+      "offset": 1115211028,
+      "size": 7245824
+    },
+    {
+      "path": "st0a/st0a0.dfrgc",
+      "offset": 594615572,
+      "size": 7254016
+    },
+    {
+      "path": "st0a/st0a0.dgegc",
+      "offset": 601869588,
+      "size": 7247872
+    },
+    {
+      "path": "st0a/st0a0.ditgc",
+      "offset": 609117460,
+      "size": 7249920
+    },
+    {
+      "path": "st0a/st0a0.dspgc",
+      "offset": 616367380,
+      "size": 7254016
+    },
+    {
+      "path": "st0a/st0a1.dengc",
+      "offset": 1122456852,
+      "size": 5197824
+    },
+    {
+      "path": "st0a/st0a1.dfrgc",
+      "offset": 623621396,
+      "size": 5206016
+    },
+    {
+      "path": "st0a/st0a1.dgegc",
+      "offset": 628827412,
+      "size": 5199872
+    },
+    {
+      "path": "st0a/st0a1.ditgc",
+      "offset": 634027284,
+      "size": 5201920
+    },
+    {
+      "path": "st0a/st0a1.dspgc",
+      "offset": 639229204,
+      "size": 5206016
+    },
+    {
+      "path": "st0a/st0a2.dengc",
+      "offset": 1127654676,
+      "size": 4481024
+    },
+    {
+      "path": "st0a/st0a2.dfrgc",
+      "offset": 644435220,
+      "size": 4491264
+    },
+    {
+      "path": "st0a/st0a2.dgegc",
+      "offset": 648926484,
+      "size": 4483072
+    },
+    {
+      "path": "st0a/st0a2.ditgc",
+      "offset": 653409556,
+      "size": 4487168
+    },
+    {
+      "path": "st0a/st0a2.dspgc",
+      "offset": 657896724,
+      "size": 4491264
+    },
+    {
+      "path": "st0a/st0a3.dengc",
+      "offset": 1132135700,
+      "size": 7272448
+    },
+    {
+      "path": "st0a/st0a3.dfrgc",
+      "offset": 662387988,
+      "size": 7282688
+    },
+    {
+      "path": "st0a/st0a3.dgegc",
+      "offset": 669670676,
+      "size": 7274496
+    },
+    {
+      "path": "st0a/st0a3.ditgc",
+      "offset": 676945172,
+      "size": 7276544
+    },
+    {
+      "path": "st0a/st0a3.dspgc",
+      "offset": 684221716,
+      "size": 7280640
+    },
+    {
+      "path": "st0a/st0a4.dengc",
+      "offset": 1139408148,
+      "size": 6985728
+    },
+    {
+      "path": "st0a/st0a4.dfrgc",
+      "offset": 691502356,
+      "size": 6993920
+    },
+    {
+      "path": "st0a/st0a4.dgegc",
+      "offset": 698496276,
+      "size": 6987776
+    },
+    {
+      "path": "st0a/st0a4.ditgc",
+      "offset": 705484052,
+      "size": 6989824
+    },
+    {
+      "path": "st0a/st0a4.dspgc",
+      "offset": 712473876,
+      "size": 6993920
+    },
+    {
+      "path": "st0a/st0a5.dengc",
+      "offset": 1146393876,
+      "size": 4655104
+    },
+    {
+      "path": "st0a/st0a5.dfrgc",
+      "offset": 719467796,
+      "size": 4663296
+    },
+    {
+      "path": "st0a/st0a5.dgegc",
+      "offset": 724131092,
+      "size": 4657152
+    },
+    {
+      "path": "st0a/st0a5.ditgc",
+      "offset": 728788244,
+      "size": 4659200
+    },
+    {
+      "path": "st0a/st0a5.dspgc",
+      "offset": 733447444,
+      "size": 4663296
+    },
+    {
+      "path": "st0a/st0a6.dengc",
+      "offset": 1151048980,
+      "size": 6965248
+    },
+    {
+      "path": "st0a/st0a6.dfrgc",
+      "offset": 738110740,
+      "size": 6975488
+    },
+    {
+      "path": "st0a/st0a6.dgegc",
+      "offset": 745086228,
+      "size": 6967296
+    },
+    {
+      "path": "st0a/st0a6.ditgc",
+      "offset": 752053524,
+      "size": 6969344
+    },
+    {
+      "path": "st0a/st0a6.dspgc",
+      "offset": 759022868,
+      "size": 6975488
+    },
+    {
+      "path": "st0a/st0a7.dengc",
+      "offset": 1158014228,
+      "size": 1585152
+    },
+    {
+      "path": "st0a/st0a7.dfrgc",
+      "offset": 765998356,
+      "size": 1595392
+    },
+    {
+      "path": "st0a/st0a7.dgegc",
+      "offset": 767593748,
+      "size": 1589248
+    },
+    {
+      "path": "st0a/st0a7.ditgc",
+      "offset": 769182996,
+      "size": 1591296
+    },
+    {
+      "path": "st0a/st0a7.dspgc",
+      "offset": 770774292,
+      "size": 1595392
+    },
+    {
+      "path": "st0b/",
+      "directory": true
+    },
+    {
+      "path": "st0b/st0b0.dengc",
+      "offset": 1159599380,
+      "size": 2377728
+    },
+    {
+      "path": "st0b/st0b0.dfrgc",
+      "offset": 772369684,
+      "size": 2387968
+    },
+    {
+      "path": "st0b/st0b0.dgegc",
+      "offset": 774757652,
+      "size": 2379776
+    },
+    {
+      "path": "st0b/st0b0.ditgc",
+      "offset": 777137428,
+      "size": 2381824
+    },
+    {
+      "path": "st0b/st0b0.dspgc",
+      "offset": 779519252,
+      "size": 2387968
+    },
+    {
+      "path": "st0b/st0b1.dengc",
+      "offset": 1161977108,
+      "size": 5838848
+    },
+    {
+      "path": "st0b/st0b1.dfrgc",
+      "offset": 781907220,
+      "size": 5849088
+    },
+    {
+      "path": "st0b/st0b1.dgegc",
+      "offset": 787756308,
+      "size": 5842944
+    },
+    {
+      "path": "st0b/st0b1.ditgc",
+      "offset": 793599252,
+      "size": 5844992
+    },
+    {
+      "path": "st0b/st0b1.dspgc",
+      "offset": 799444244,
+      "size": 5849088
+    },
+    {
+      "path": "st0b/st0b2.dengc",
+      "offset": 1167815956,
+      "size": 7233536
+    },
+    {
+      "path": "st0b/st0b2.dfrgc",
+      "offset": 805293332,
+      "size": 7243776
+    },
+    {
+      "path": "st0b/st0b2.dgegc",
+      "offset": 812537108,
+      "size": 7237632
+    },
+    {
+      "path": "st0b/st0b2.ditgc",
+      "offset": 819774740,
+      "size": 7239680
+    },
+    {
+      "path": "st0b/st0b2.dspgc",
+      "offset": 827014420,
+      "size": 7243776
+    },
+    {
+      "path": "st0b/st0b3.dengc",
+      "offset": 1175049492,
+      "size": 7260160
+    },
+    {
+      "path": "st0b/st0b3.dfrgc",
+      "offset": 834258196,
+      "size": 7270400
+    },
+    {
+      "path": "st0b/st0b3.dgegc",
+      "offset": 841528596,
+      "size": 7264256
+    },
+    {
+      "path": "st0b/st0b3.ditgc",
+      "offset": 848792852,
+      "size": 7266304
+    },
+    {
+      "path": "st0b/st0b3.dspgc",
+      "offset": 856059156,
+      "size": 7270400
+    }
+  ]
+}
